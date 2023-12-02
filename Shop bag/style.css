@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: lightgreen;
+}
+.table-container {
+    background: #fff;
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 20px;
+    width: 800px;
+
+}
+.table-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.table-container tr td {
+    padding: 0 10px;
+    width: 150px;height: 100px;
+   }
+.table-container tr td .i-container {
+    margin: 0 auto;width: 80px;
+}
+.table-container tr td .i-container i {
+    margin-right: 10px;
+    font-size: 1.4rem;
+}
+.fa-solid {
+    color: red;
+}
+.table-container tr td .img-wrap {
+    width: 150px;height: 100px;
+}
+.table-container tr td .img-wrap img {
+    width: 100%;height: 100%;
+    object-fit: cover;
+}
+.table-container tr .td {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table-container tr td .p1 {
+    font-size: 1.3rem;
+    margin-bottom: .1rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.table-container tr td .p2 {
+    font-size: .9rem;
+    margin-top: 0;
+    margin-bottom: .2rem;
+  }
+.table-container tr .td .btn {
+    display: inline-block;
+    width: 30px;height: 30px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;justify-content: center;
+    margin: 0 .5rem;
+}
+.table-container tr .td .num {
+    margin: 0 .5rem;
+    font-size: 1.3rem;
+}
+.table-container tr td .price {
+    display: inline-block;
+    font-size: 1.5rem;margin: 0 .6rem;
+    font-weight: bold;
+}

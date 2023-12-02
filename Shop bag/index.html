@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table-container">
+      <h2>Shopping Bag</h2>
+      <table>
+        <tr>
+          <td>
+            <div class="i-container">
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </td>
+          <td>
+            <div class="img-wrap"><img src="./img/sneaker1.jpg" alt="" /></div>
+          </td>
+          <td>
+            <p class="p1">Nike Runner</p>
+            <p class="p2">black</p>
+          </td>
+          <td class="td">
+            <button class="btn plus1" onclick="plusPrice(1,0)">+</button>
+            <p class="num1">0</p>
+            <button class="btn minus1" onclick="plusPrice(-1,0)">-</button>
+          </td>
+          <td><p class="price">$549</p></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="i-container">
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </td>
+          <td>
+            <div class="img-wrap"><img src="./img/sneaker2.jpg" alt="" /></div>
+          </td>
+          <td>
+            <p class="p1">Nike Air</p>
+            <p class="p2">white</p>
+          </td>
+          <td class="td">
+            <button class="btn plus2" onclick="plusPrice(1,1)">+</button>
+            <p class="num2">0</p>
+            <button class="btn minus2" onclick="plusPrice(-1,1)">-</button>
+          </td>
+          <td><p class="price">$870</p></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="i-container">
+              <i class="fa-solid fa-xmark"></i>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </td>
+          <td>
+            <div class="img-wrap"><img src="./img/sneaker3.jpg" alt="" /></div>
+          </td>
+          <td>
+            <p class="p1">Nike Air</p>
+            <p class="p2">pink</p>
+          </td>
+          <td class="td">
+            <button class="btn plus3" onclick="plusPrice(1,2)">+</button>
+            <p class="num3">0</p>
+            <button class="btn minus3" onclick="plusPrice(-1,2)">-</button>
+          </td>
+          <td><p class="price">$349</p></td>
+        </tr>
+      </table>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

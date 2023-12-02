@@ -1,0 +1,83 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: lightgreen;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /* background: lightgreen; */
+    background: white;
+    width: 50%;
+    margin:100px auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    /* background: red; */
+}
+.card-top {
+    width: 100%;
+    height: 30px;
+    /* background: tomato; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-bottom: 1px solid #80808086;
+}
+.card-top h4 {
+    display: inline-block;
+    /* background: cyan; */
+    color: rgba(1, 16, 16, 0.882);
+}
+.card-bot {
+    width: 100%;
+    display: flex;
+    flex-direction:row ;
+    /* background: dodgerblue; */
+    /* background: white; */
+}
+.card-bot_left {
+    width: 40%;
+    border-right: 1px solid rgba(128, 128, 128, 0.644);
+    /* height: 200px; */
+    /* background: yellow; */
+    /* aspect-ratio: 2/3; */
+}
+.card-bot_left img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    aspect-ratio: 5/5;
+}
+.card-bot_right {
+    width: 60%;
+    /* height: 200px; */
+    /* background: purple; */
+    padding: 25px;
+}
+.card-bot_right p, span {
+    color: rgba(128, 128, 128, 0.86);
+
+}
+.btn {
+    height: 40px;
+    border-radius: 5px;
+  padding: 3px 7px;
+  border: 1px solid rgba(128, 128, 128, 0.753);
+}
+.btn1:hover {
+    letter-spacing: .3px;
+    height: 42px;
+}
+.btn2:hover {
+    letter-spacing: .3px;
+    height: 42px;
+}
+#heart:hover {
+    /* background: red; */
+    cursor: pointer;
+    accent-color: red;
+}
